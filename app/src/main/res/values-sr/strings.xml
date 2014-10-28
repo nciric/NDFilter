@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">НД филтер</string>
+    <string name="shutter_speed">Дужина експозиције без филтера</string>
+    <string name="nd_value_text">Затамњеност филтера</string>
+    <string name="calculated_shutter_speed_text">Дужина експозиције са филтером</string>
+    <string name="seconds">с</string>
+    <string name="minutes">мин</string>
+    <string name="hours">ч</string>
+</resources>
