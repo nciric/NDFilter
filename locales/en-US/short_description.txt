@@ -1,0 +1,1 @@
+ND Filter calculates shutter speed when neutral density filter is used.
