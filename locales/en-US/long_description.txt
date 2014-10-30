@@ -1,0 +1,11 @@
+Most cameras today can't detect proper exposure through the ND filter so the process to take a photo with a ND filter is (Nikon camera example):
+
+1. Switch to M mode (or S)
+2. Find proper exposure without the filter
+3. Put the filter on
+4. Dial shutter speed to the value ND Filter tells you
+5. Take a shot!
+
+The formula we use to calculate the values is Tnd = T0 * 2^nd, where Tnd is shutter speed with the filter, T0 is shutter speed without the filter and nd is filter density (1, 2, 3, ... 13).
+
+Code for the app is available at https://github.com/nciric/NDFilter.
