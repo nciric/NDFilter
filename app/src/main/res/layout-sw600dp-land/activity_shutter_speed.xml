@@ -9,27 +9,27 @@
     tools:context=".ShutterSpeedActivity">
 
     <NumberPicker
-        android:layout_width="125dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:id="@+id/shutter_value"
-        android:layout_marginLeft="15dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="35dp"
+        android:layout_marginBottom="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true" />
 
     <NumberPicker
-        android:layout_width="125dp"
+        android:layout_width="210dp"
         android:layout_height="wrap_content"
         android:id="@+id/nd_value"
-        android:layout_marginRight="15dp"
-        android:layout_marginBottom="5dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginBottom="20dp"
         android:layout_alignParentBottom="true"
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:layout_width="130dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/shutter_speed"
         android:id="@+id/shutter_speed_text"
@@ -39,7 +39,7 @@
         android:layout_above="@id/shutter_value" />
 
     <TextView
-        android:layout_width="130dp"
+        android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:text="@string/nd_value_text"
         android:id="@+id/nd_value_text"
@@ -53,12 +53,10 @@
         android:layout_height="wrap_content"
         android:text="@string/calculated_shutter_speed_text"
         android:id="@+id/calculated_shutter_speed_message"
-        android:textSize="19sp"
-        android:layout_marginTop="10dp"
-        android:gravity="center"
+        android:textSize="25sp"
+        android:layout_marginTop="15dp"
         android:layout_alignParentTop="true"
-        android:layout_toRightOf="@id/shutter_value"
-        android:layout_toLeftOf="@id/nd_value_text"/>
+        android:layout_centerHorizontal="true" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -66,8 +64,8 @@
         android:text="1/4000"
         android:id="@+id/calculated_shutter_speed"
         android:layout_below="@id/calculated_shutter_speed_message"
-        android:textSize="50sp"
+        android:textSize="75sp"
         android:textColor="@android:color/holo_green_light"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="45dp" />
+        android:layout_marginTop="15dp" />
 </RelativeLayout>
