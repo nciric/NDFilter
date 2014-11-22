@@ -1,0 +1,11 @@
+Majoritatea camerelor curente nu detectează corect expunerea printr-un filtru DN. Pentru a face o poză cu un filtru DN procesul arată cam așa (exemplu pentru o cameră Nikon):
+
+1. Comută în mod M (sau S)
+2. Găsește expunerea potrivită fără filtru
+3. Pune filtrul
+4. Schimbă expunerea la valoarea indicată de filtrul DN
+5. Gata pentru poză!
+
+Formula pe care o folosim să calculăm valoarea este Tdn = T0 * 2^dn, unde Tdn este expunerea cu filtru, T0 este expunerea fără filtru și dn este intensitatea filtrului (1, 2, 3, ... 13).
+
+Codul aplicației este disponibil la https://github.com/nciric/NDFilter.
