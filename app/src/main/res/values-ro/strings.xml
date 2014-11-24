@@ -3,15 +3,12 @@
 
     <string name="app_name">Filtru DN</string>
     <string name="shutter_speed">Expunere fără filtru</string>
-    <!-- A shorter version, although not as good:
-    <string name="nd_value_text">Valoare filtru DN</string>
-    -->
     <string name="nd_value_text">Valoarea filtrului DN</string>
     <string name="calculated_shutter_speed_text">Expunere cu filtru</string>
     <string name="seconds">s</string>
-    <string name="minutes">min</string>
+    <string name="minutes">m</string>
     <string name="hours">h</string>
-    <string-array name="shutter_speeds" translatable="false">
+    <string-array name="shutter_speeds">
         <item>1/8000</item>
         <item>1/6400</item>
         <item>1/5000</item>

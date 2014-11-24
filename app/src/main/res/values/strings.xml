@@ -6,9 +6,9 @@
     <string name="nd_value_text">Filter ND value</string>
     <string name="calculated_shutter_speed_text">Shutter speed with filter</string>
     <string name="seconds">s</string>
-    <string name="minutes">min</string>
+    <string name="minutes">m</string>
     <string name="hours">h</string>
-    <string-array name="shutter_speeds" translatable="false">
+    <string-array name="shutter_speeds">
         <item>1/8000</item>
         <item>1/6400</item>
         <item>1/5000</item>
@@ -66,7 +66,7 @@
         <item>30\"</item>
     </string-array>
 
-    <string-array name="nd_values"  translatable="false">
+    <string-array name="nd_values">
         <item>ND 0.3 (2)</item>
         <item>ND 0.6 (4)</item>
         <item>ND 0.9 (8)</item>
